@@ -13,29 +13,9 @@ a model of the hippocampal CA1 microcircuit. Hippocampus, in press,
 DOI 10.1002/hipo.20661, 2009.
 
 Abstract:
-It has been proposed that the hippocampal theta rhythm (4-7 Hz) can 
-contribute to memory formation by separating encoding (storage) and 
-retrieval of memories into different functional half-cycles 
-(Hasselmo et al., 2002). We investigate, via computer simulations, 
-the biophysical mechanisms by which storage and recall of spatio-temporal 
-input patterns are achieved by the CA1 microcircuitry. A model of the CA1 
-microcircuit is presented that uses biophysical representations of the 
-major cell types, including pyramidal (P) cells and four types of inhibitory
-interneurons: basket (B) cells, axo-axonic (AA) cells, bistratified (BS) cells 
-and oriens lacunosum-molecurale (OLM) cells. Inputs to the network come from 
-the entorhinal cortex (EC), the CA3 Schaffer collaterals and medial septum. 
-The EC input provides the sensory information, whereas all other inputs provide 
-context and timing information. Storage is accomplished via a local STDP mediated
-hetero-association of the EC input pattern and the incoming CA3 input pattern on 
-the pyramidal cell target synapses. The model simulates the timing of firing of
-different hippocampal cell types relative to the theta rhythm in anaesthetized 
-animals and proposes experimentally confirmed functional roles for the different 
-classes of inhibitory interneurons in the storage and recall cycles 
-(Klausberger et al., 2003, 2004). Measures of recall performance of new and 
-previously stored input patterns in the presence or absence of various inhibitory
-interneurons are employed to quantitatively test the performance of our model. 
-Finally, the mean recall quality of the CA1 microcircuit is tested as the number 
-of stored patterns is increased.
+Alzheimer’s disease (AD) is a severe neurodegenerative disease that interferes with many aspects of daily life due to severe cognitive, behavioral, and functional decline, as well as progressive memory loss. In normal healthy adult brains, function and mass do not significantly decline with age. However, brains affected by AD have shown both loss of mass and function (Simic et al. 1997). Since AD is associated with dementia, it is expected that the hippocampus is one of the first areas of the brain to be affected, particularly in the CA1 and CA3 regions (van de Pol et al. 2006). Due to this, the simulation was run with a focus on the CA1, CA3, and the entorhinal cortex’s (EC) roles in creating and recalling “memories,” and how a primitive version of AD following the amyloid hypothesis affects it. To achieve this, a pre-existing model of the hippocampal network centered around the pyramidal cells (PC) of the CA1 microcircuit was modified to have less synapses between EC/CA3 cells and CA1 cells (Spires et al. 2006). 
+Patterns were then run through the model network, resulting in measures of the impact of a damaged hippocampus on the brain’s ability to accurately store and recall memories.
+
 
 To run file in python:
 python -i HAM_StoRec_ser.py
