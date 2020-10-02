@@ -37,6 +37,10 @@ interneurons are employed to quantitatively test the performance of our model.
 Finally, the mean recall quality of the CA1 microcircuit is tested as the number 
 of stored patterns is increased.
 
+To run file in python:
+python -i HAM_StoRec_ser.py
+
+To run in Hoc:
 Main file: HAM_StoRec_par.hoc (parallel version)
            HAM_StoRec_ser.hoc (serial version - VERY SLOW!)
 

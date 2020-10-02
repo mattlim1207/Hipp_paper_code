@@ -92,7 +92,9 @@ title('(d) Recall quality');
 ylabel('Quality');
 xlabel('Time (msecs)');
 axis([STIME ETIME 0 1.02]);
-
+disp("Hello")
+disp(mean(co))
+disp("Hello")
 mean(co(co>0))
 
 %print('-dpng', ['Images/' FSTEM]);
